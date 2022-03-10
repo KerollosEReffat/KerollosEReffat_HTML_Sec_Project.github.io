@@ -1,0 +1,130 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+/* it is library for importing default google font */
+* {
+    /* font-family: 'Poppins', sans-serif; */
+    /* it is the default google font box-sizing: border-box; */
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    /*to smooth scroll in the page */
+}
+
+body {
+    margin: 8px;
+    padding: 10px;
+}
+
+header {
+    margin: 40.200px 0px;
+    font-size: 1.85em;
+    display: flex;
+    justify-content: center;
+    /* font-family: "Snell Roundhand" !important;
+    font-weight: normal !important;
+    flex-basis: 100%; */
+}
+
+.part_all_1 {
+    width: 100%;
+    min-height: 40.4em;
+    border-top: 3px solid black;
+    border-left: .09375em solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.section_1 {
+    padding: 0px;
+    width: 25%;
+    min-height: 40.4em;
+    border-right: 1.5px solid black;
+}
+
+#photo {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.section_1 h2 {
+    font-size: 1.875em;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.section_1 p {
+    margin: 0 10px;
+    margin-bottom: 16px;
+}
+
+#section_1_2 {
+    width: 49%;
+    /* padding: 9px; */
+    padding: 0 9px;
+    padding-top: 9px;
+}
+
+#section_1_2 h2 {
+    margin-top: 20px;
+}
+
+#section_1_2 p {
+    margin: 0px;
+    /* margin-bottom: 16px !important; */
+    margin-left: -1px;
+}
+.p_121{
+    margin-bottom: 16px !important;
+}
+
+#part_all_2 {
+    min-height: 304px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#section_2_1 {
+    min-height: 304px;
+}
+
+.section_2_2 {
+    width: 75%;
+    border-right: 1.5px solid black;
+}
+
+.A {
+    padding-left:30px;
+    font-size: 1.875em;
+    font-weight: bold;
+    color: #666;                                             
+    display:flex/*!important*/; 
+    flex-direction: column/*!important*/;
+    justify-content: center;
+    text-decoration: none;
+    min-height:61.2px;
+}
+.A:hover{
+    text-decoration: underline;
+}
+#A1 {
+    background-color: #ffeaa7;
+}
+
+#A2 {
+    background-color: #81ecec;
+}
+
+#A3 {
+    background-color: #55efc4;
+}
+
+#A4 {
+    background-color: #74b9ff;
+}
+
+#A5 {
+    background-color: #a29bfe;
+}
